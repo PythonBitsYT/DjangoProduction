@@ -1,6 +1,5 @@
 # README #
-#! TODO-Boilerplate: Fix this name
-Below documentation takes you over a step-by-step guide to setup djangoprod microservice on your machine
+Below documentation takes you over a step-by-step guide to setup a production ready django project on your machine
 
 ## Requirements
 
