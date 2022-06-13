@@ -1,0 +1,28 @@
+// Debug configurations to use for debugging the project
+// Please save this in .vscode file locally with extension .json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django Runserver",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true
+        },
+        {
+            "name": "Python: Django Single Test Module",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "test",
+                "`echo -n ${relativeFileDirname} | tr \/ .`.${fileBasenameNoExtension}"
+            ],
+            "django": true
+        },
+    ]
+}
