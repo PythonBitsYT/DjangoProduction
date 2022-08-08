@@ -4,7 +4,7 @@ Settings for djangoprod project.
 
 Base settings are imported from base_settings module
 """
-from .base import *
+from .django import *
 
 
 ###############################################################################################################
